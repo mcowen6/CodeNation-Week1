@@ -54,10 +54,10 @@ let coffeeOrder = [
 
 // for (let i = 0; i < 25; i++){
 //     if (i % 2 == 0){
-//         multiplesTwo.push(i);
+//         multiplesTwo.push(i);       // if i is a multiple of two, then telling to push to bottom of array/ list
 //     }
 // }
-// console.log(`Numbers divisible by 2 between 0 and 20 are: ${multiplesTwo}.`);
+// console.log(`Numbers divisible by 2 between 0 and 20 are: ${multiplesTwo}.`);        // calling all values in array using template literal
 
 
 // While loop:

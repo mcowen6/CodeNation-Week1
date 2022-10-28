@@ -38,7 +38,7 @@
 // let coffeeIsGrinding = false;
 
 // const pressGrindBeans = () => {
-//     if (coffeeIsGrinding) {         // can but '== true' but because boolean already implies this
+//     if (coffeeIsGrinding) {         // can put '== true' but because boolean already implies this
 //         console.log("Stopping the grind");
 //         coffeeIsGrinding = false;      //  changes to false if true
 //     } else {
