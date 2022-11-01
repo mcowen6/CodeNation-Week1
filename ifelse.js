@@ -153,5 +153,76 @@
 
 //Activity 8:
 // Take “jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi”
-// and find the last vouwel in the string
+// and find the last vowel in the string
 //start:
+// to retrieve any character in a string - browserType[5] - number being position of character in string (0 indexed count)
+// to retrieve the last character of any string - broswerType[browserType.length-1];  
+// to retrieve a substring within a string i.e. a vowel within a string: 
+// includes() - returns true or false, 
+// startsWith() - determines whehter a string begins with the characters of a specified substring - returns true or false
+// endsWith() - determines whether a string ends with the characters of a substring - returns true or false 
+// syntax of these:  e.g: endswith(searchString) or endswith(searchString, endPosition) - if you want it to check from a specified position.
+
+// Attempt:
+// const myString = "jrfndklhgfndjkjlkgperfijfhdknsadcvjhiiohjfkledsopiuhgtyujwsdxcvhgfdjhiopiwquhejkdsoiufghedjwshi";
+// const index = myString.length
+
+
+// let myVowels=["a","e","i","o","u"]
+// let myResults= new Array()
+
+// for(let i=0; i<myVowels.length; i++){
+//     console.log(myVowels[i])
+//     console.log(myString.lastIndexOf(myVowels[i]))
+//     myResults.push(myString.lastIndexOf(myVowels[i]))
+//     myResults.sort().reverse();
+// }
+
+
+// console.log(myResults);
+
+//Activity 9:
+// create variable called word
+// if last letter is same as first output true
+// else false
+//start:
+
+// let myWord = "adkvmmdsdioda"
+
+// if (myWord.charAt(0) == myWord.charAt(myWord.length-1)){
+//     console.log("true");
+// } else {console.log("false")};
+
+
+//Activity 10:
+// create two num variables 
+// check if sum is even -> if yes return number
+// else multiply and return
+//start:
+
+// let num1 = 47
+// let num2 = 36
+// let answer1 = num1 + num2
+
+// if (answer1 % 2 == 0){
+//     console.log(answer1);
+// } else {console.log(num1*num2)};
+
+
+
+
+// testing includes()
+// console.log(myString1.includes(myVowels));  // output: true
+ 
+
+
+// trying things from MDN:
+// const myString = "123";
+// const myNum = Number(myString);
+// console.log(typeof myNum);
+
+// const myNum2 = 123;
+// const myString2 = myNum2.toString();
+// console.log(typeof myString2);
+
+

@@ -1,26 +1,26 @@
 //console.log("this is the array and loop lecture");
 
-let coffeeOrder = [
-    "Alex - Cortado",  //0
-    "Ben - Cortado",  //1
-    "Charlie - Whatever's new",  //2
-];
+// let coffeeOrder = [
+//     "Alex - Cortado",  //0
+//     "Ben - Cortado",  //1
+//     "Charlie - Whatever's new",  //2
+// ];
 
-//coffeeOrder.push("Donna - espresso");
-//console.log(coffeeOrder);
+// coffeeOrder.push("Donna - espresso");
+// console.log(coffeeOrder);
 
-//console.log(coffeeOrder[2]); 
+// console.log(coffeeOrder[2]); 
 
 // Arrays can be updated just like variables :
 
 // coffeeOrder[1] = "Ann - Vanilla latte";
 // console.log(coffeeOrder);
 
-//console.log(coffeeOrder.length); // properties work just like variables - this will output the length of the array -> how many items
+// console.log(coffeeOrder.length); // properties work just like variables - this will output the length of the array -> how many items
 
 // .push method -> allows you to add add items / push items to the end of a list / array -> has to be added underneath the array as shown above not below -> or atleast above any other functions that are to be carried out afterwards
 
-//coffeeOrder.push("Donna - espresso");
+// coffeeOrder.push("Donna - espresso");
 
 // .pop method -> removes the last item from the list of your array
 
@@ -52,7 +52,7 @@ let coffeeOrder = [
 
 // let multiplesTwo = [];
 
-// for (let i = 0; i < 25; i++){
+// for (let i = 0; i < 20; i++){
 //     if (i % 2 == 0){
 //         multiplesTwo.push(i);       // if i is a multiple of two, then telling to push to bottom of array/ list
 //     }
@@ -69,3 +69,98 @@ let coffeeOrder = [
 // }
 // console.log("You're an adult -" + age)
 
+// Card example:
+
+// let cards = ["Diamond", "Spade", "Heart", "Club"];
+// let currentCard = "Club";
+
+// while(currentCard != "Spade"){
+//     console.log(currentCard);
+//     currentCard = cards[Math.floor(Math.random()*4)];
+// }
+// console.log(currentCard);
+
+
+//Activity 1:
+// array of favourite films [5]
+// add two more using method (.push())
+// use loop to cycle through array
+//start:
+
+// let favFilms = ["Once upon a time in Hollywood", "No country for old men", "Reservior dogs", "The Shawshank Redemption", "Fight Club"];
+
+// favFilms.push("A Bronx Tale", "Shutter Island");
+
+// for (i = 0; i < favFilms.length; i++){
+//     console.log(favFilms[i]);
+// }
+
+// console.log(favFilms);
+
+
+// Activity 2:
+// generate 6 random numbers between 1-50
+
+// let numArray1 = new Array();
+
+// for (let i=0; numArray1.length < 6; i++){
+//     let rNum1 = Math.floor(Math.random()*50);
+//     numArray1.push(rNum1);
+//     console.log(numArray1);
+// }
+// console.log(rNum1);
+// can also do:
+// while (numArray1.length < 6){
+//     let rNum1 = Math.floor(Math.random()*50);
+//     numArray1.push(rNum1);
+//     console.log(numArray1);
+// }
+
+
+//Activity 3:
+// count down from 9 to 0:
+
+// let myNum = 9
+
+// while (myNum >= 0){
+//     console.log(myNum);
+//     myNum--;
+// }
+
+
+//Activity 4:
+
+// let filmsArray = [
+//     "Legend",
+//     "Fear & Loathing in Las Vegas",
+//     "Scarface",
+//     "The Irishman",
+// ]
+// for (let i = 0; i < filmsArray.length; i++){
+//     console.log(filmsArray[i]);
+// } if (filmsArray[2] == "Ghostbusters"){
+//     console.log("Yay it's Ghostbusters");
+// } else if (filmsArray[2] !== "Ghostbusters"){
+//     console.log("Boo! we want Ghostbusters!");
+// }
+
+
+//Activity 5:
+// random n between 1-30
+// for each -> check if % 7
+// log message if yes or no
+//start:
+
+// let rNumArray = new Array();
+
+// for (i = 0; rNumArray.length < 6; i++){
+//     let rNum = Math.floor(Math.random()*30);
+//     rNumArray.push(rNum);
+//     if (rNumArray[i] % 7 == 0){
+//         console.log(`${rNum} is divisible by 7.`);
+//     } else {console.log(`${rNum} is not divisible by 7.`)}
+// }
+
+
+//Activity 6:
+//  

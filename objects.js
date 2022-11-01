@@ -152,7 +152,7 @@ objects are cotainers that can store data and functions. We use Key-Value pairs 
 //     }                                             
 // };
 
-// person.sayHi()                  // because console.log is inside of the function you can output like this  
+// person.sayHi()                  // because console.log is inside of the function you can output like this     
 
 
 //Activity 2:
@@ -184,7 +184,7 @@ should return string saying you pet name is eating/drinking
 /*
 create object called coffeeshop with key values of:
 branch, drink - with prices, food - with prices
-and methods called drinksOedered and foodOrdered.
+and methods called drinksOrdered and foodOrdered.
 should return string saying your order is - and all items chosen with costs and total costs.
 */
 
