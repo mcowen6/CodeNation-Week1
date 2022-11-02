@@ -153,7 +153,7 @@
 
 // let rNumArray = new Array();
 
-// for (i = 0; rNumArray.length < 6; i++){
+// for (let i = 0; rNumArray.length < 6; i++){
 //     let rNum = Math.floor(Math.random()*30);
 //     rNumArray.push(rNum);
 //     if (rNumArray[i] % 7 == 0){
@@ -163,4 +163,52 @@
 
 
 //Activity 6:
-//  
+//  2 ARRAYS of SM followers: bobsFollowers, amysFollowers
+// 4 names in each - make sure 2 names in both arrays
+// use nested loop to iterate over both arrays and log the matching follower(s)
+// start:   // still need to fix
+
+// let bobsFollowers = [
+//     "Sam",
+//     "Charlie",
+//     "Jessica",
+//     "Owen",
+// ];
+// let amysFollowers = [
+//     "Charlie",
+//     "Jake",
+//     "Kyle",
+//     "Jessica",
+// ];
+
+// let matchFollowers;
+
+// for (let b = 0; b < bobsFollowers.length; b++) {
+//     matchFollowers = false;
+        
+//     for (let i = 0; i < amysFollowers.length; i++) {
+//         if (bobsFollowers[b] == amysFollowers[i]) { 
+//             matchFollowers = true;
+//             break;
+//             }if (matchFollowers) {
+//             console.log();
+//         }   else {console.log("No match found.")};
+//     }
+// }
+
+
+//Activity 7: 
+
+// Do while loop repeats itself until a specified condition evaluates to false.
+// do 
+//      statement 
+// while (condition);
+
+
+// A while statement executes as long as the condition remains true:
+// while (condition)
+//        statement
+
+// A for loop repeats until a specified condition evaluates to false
+// for ([initialExpression]; [conditionExpression]; [incrementExpression])
+//      statement ---- to execute multiple times use a block statement {}
